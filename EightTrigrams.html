@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <!--
+    Created using JS Bin
+    http://js.jirengu.com
+
+    Copyright (c) 2019 by anonymous (http://js.jirengu.com/baqukudaga/1/edit)
+
+    Released under the MIT license: http://jsbin.mit-license.org
+    -->
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>八卦图</title>
+    <style>
+        body {
+            background: #eee;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #八卦 {
+            width: 400px;
+            height: 400px;
+            border-radius: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #八卦>div:first-child {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            background: black;
+        }
+
+        #八卦>div:nth-child(2) {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            background: white;
+
+        }
+
+        #八卦>div:nth-child(3) {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 50%;
+            margin-left: -100px;
+            border-radius: 50%;
+            background: black;
+        }
+
+        #八卦>div:nth-child(4) {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 50%;
+            bottom: 0;
+            margin-left: -100px;
+            border-radius: 50%;
+            background: white;
+        }
+
+        #八卦>div:nth-child(5) {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 50%;
+            top: 75px;
+            margin-left: -25px;
+            border-radius: 50%;
+            background: white;
+        }
+
+        #八卦>div:nth-child(6) {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 50%;
+            bottom: 75px;
+            margin-left: -25px;
+            border-radius: 50%;
+            background: black;
+        }
+        .dao {
+            position: absolute;
+            left: 160px;
+            top: 420px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="八卦">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="dao">道可道，非常道</div>
+<script src="http://js.jirengu.com/js/render/edit.js?3.25.5"></script>
+<script>jsbinShowEdit && jsbinShowEdit({"static":"http://js.jirengu.com","root":"http://js.jirengu.com"});</script>
+<script src="http://js.jirengu.com/js/vendor/eventsource.js?3.25.5"></script>
+<script src="http://js.jirengu.com/js/spike.js?3.25.5"></script>
+</body>
+
+</html>

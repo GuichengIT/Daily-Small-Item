@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hamburger</title>
+    <style>
+        body{
+            background-color: #c5e9e8;
+        }
+        .burger{
+            margin: 0 auto;
+            width: 250px;
+            position: relative;
+        }
+        .burger .cheesey{
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            -webkit-transform: scale(0.7, 0.3);
+            -moz-transform: scale(0.7, 0.3);
+            -o-transform: scale(0.7, 0.3);
+            -ms-transform: scale(0.7, 0.3);
+            transform: scale(0.7, 0.3);
+        }
+        .burger .cheesey .cheese{
+            -webkit-transform-origin: 100px 100px;
+            -moz-transform-origin: 100px 100px;
+            -o-transform-origin: 100px 100px;
+            transform-origin: 100px 100px;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+        .burger .cheesey .cheese:before, .burger .cheesey .cheese:after{
+            content: '';
+            height: 200px;
+            width: 200px;
+            background: #ff0;
+            -webkit-box-shadow: -1px 1px #e5e600, -2px 2px #e5e600, -3px 3px #e5e600, -4px 4px #e5e600, 1px -1px #e5e600;
+            box-shadow: -1px 1px #e5e600, -2px 2px #e5e600, -3px 3px #e5e600, -4px 4px #e5e600, 1px -1px #e5e600;
+        }
+
+        .burger .cheesey .cheese:before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-transform: rotate(25deg);
+            -moz-transform: rotate(25deg);
+            -o-transform: rotate(25deg);
+            -ms-transform: rotate(25deg);
+            transform: rotate(25deg);
+        }
+        .burger .cheesey .cheese:after{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            -webkit-transform: rotate(-15deg);
+            -moz-transform: rotate(-15deg);
+            -o-transform: rotate(-15deg);
+            -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+        }
+        .burger .patty{
+            background: #732626;
+            height: 75px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 70px;
+            border-radius: 125px 125px 125px 125px/25px 25px 25px 25px;
+        }
+        .burger .patty:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            border-radius: 125px/25px;
+            background: #933;
+        }
+        .burger .bun{
+            background: #dd8c3c;
+            width: 250px;
+        }
+        .burger .bun.top{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100px;
+            border-radius: 125px 125px 125px 125px/75px 75px 25px 25px;
+        }
+        .burger .bun.bottom{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100px;
+            height: 75px;
+            border-radius: 125px 125px 125px 125px/25px 25px 35px 35px;
+        }
+        .burger .bun.bottom:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: #f0d8a8;
+            border-radius: 125px/25px;
+        }
+    </style>
+</head>
+<body>
+<div class="burger">
+    <div class="bun bottom"></div>
+    <div class="patty"></div>
+    <div class="cheesey">
+        <div class="cheese"></div>
+    </div>
+    <div class="bun top"></div>
+</div>
+</body>
+</html>

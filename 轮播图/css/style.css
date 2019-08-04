@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+    color: #14191e;
+}
+.main{
+    width: 1200px;
+    height: 460px;
+    margin: 30px auto;
+}
+/*焦点图*/
+.banner{
+    width: 1200px;
+    height: 460px;
+}
+.banner_slide{
+    width: 1200px;
+    height: 460px;
+    float: left;
+}
+.slide1{
+    background-image: url();
+}

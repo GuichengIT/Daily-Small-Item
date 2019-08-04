@@ -22,5 +22,6 @@ body{
     float: left;
 }
 .slide1{
-    background-image: url();
+    background-image: url("../img/bg1.jpg");
+
 }

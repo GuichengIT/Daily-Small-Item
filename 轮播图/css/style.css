@@ -39,5 +39,6 @@ body{
     height: 80px;
     left:244px;
     top: 50%;
+    margin-top: -40px;
     background-color: red;
 }

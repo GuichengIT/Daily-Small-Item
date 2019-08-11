@@ -137,3 +137,15 @@ a:link,a:visited{
     font-weight: normal;
     font-family: "iconfont";
 }
+
+.sub-menu{
+    width: 730px;
+    height: 458px;
+    position: absolute;
+    left: 244px;
+    top:0;
+    background-color: #fff;
+    z-index: 500;
+    border: 1px solid #d9dde1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}

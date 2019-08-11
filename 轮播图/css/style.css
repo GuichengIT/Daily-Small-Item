@@ -23,6 +23,7 @@ body{
     width: 1200px;
     height: 460px;
     float: left;
+    background-repeat: no-repeat;
 }
 .slide1{
     background-image: url("../img/bg1.jpg");
@@ -40,5 +41,42 @@ body{
     left:244px;
     top: 50%;
     margin-top: -40px;
-    background-color: red;
+    background:url("../img/arrow.png") center center no-repeat;
+    transform: rotate(180deg);
+}
+.next{
+    left: auto;
+    right: 0;
+    transform: rotate(0deg);
+}
+.dots{
+    position: absolute;
+    right: 24px;
+    bottom: 18px;
+    line-height: 12px;
+}
+
+.dots span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(7,17,27,0.4);
+    margin-left: 8px;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.8) inset;
+    cursor: pointer;
+}
+
+.dots span.active{
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset;
+}
+
+.menu-box{
+    position:absolute;
+    left: 0;
+    right: 0;
+    width: 244px;
+    height: 460px;
+    background: rgba(7,17,27,0.5);
 }

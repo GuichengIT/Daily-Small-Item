@@ -6,6 +6,22 @@ body{
     font-family: "微软雅黑";
     color: #14191e;
 }
+
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color: #5e5e5e;
+}
+
+@font-face{
+    font-family: "iconfont" ;
+    src: url('../img/font/iconfont.eot');
+    src: url("../img/font/iconfont.eot") format('embedded-opentype'),
+    url("../img/font/iconfont.woff") format('woff'),
+    url("../img/font/iconfont.ttf") format('truetype'),
+    url("../img/font/iconfont.svg#iconfont") format('svg');
+}
 .main{
     width: 1200px;
     height: 460px;
@@ -79,4 +95,45 @@ body{
     width: 244px;
     height: 460px;
     background: rgba(7,17,27,0.5);
+}
+
+/*主菜单*/
+.menu-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 244px;
+    height: 460px;
+    z-index: 2;
+}
+
+.menu-item{
+    height: 64px;
+    line-height: 66px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 24px;
+}
+
+.menu-item a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    height: 63px;
+    padding: 0 8px;
+    position: relative;
+}
+
+.menu-item:last-child a{
+    border-bottom: none;
+}
+
+.menu-item i{
+    position: absolute;
+    right: 14px;
+    color: rgba(255,255,255,0.5);
+    font-style: normal;
+    font-weight: normal;
+    font-family: "iconfont";
 }

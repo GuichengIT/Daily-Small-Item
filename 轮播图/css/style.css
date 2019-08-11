@@ -155,3 +155,37 @@ a:link,a:visited{
     height: 100%;
     background: url("../img/fe.png") no-repeat;
 }
+
+.sub-inner-box{
+    width: 652px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 16px;
+    color: #f01414;
+    line-height: 16px;
+    font-weight: bold;
+    margin: 28px 0 30px 0;
+}
+
+.sub-row{
+    margin-bottom: 25px;
+}
+
+.bold{
+    font-weight:700;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.hide{
+    display: none;
+}

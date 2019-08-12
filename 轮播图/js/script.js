@@ -102,11 +102,10 @@ addHandler(dot, "click", function (){
 });
 
 //鼠标滑过主菜单显示子菜单(mouseover和mouseout事件不适合利用事件委托)
-for(var i=0;i<4;i++){
+for(let i=0;i<4;i++){
 addHandler(menuItems[i], "mouseover", function(event){
-    var target = event.target;
-    console.log(target);
-    subInnerBoxs[1].style.display = "block";
+
+    subInnerBoxs[i].style.display = "block";
     subMenu.className = "sub-menu";
 });
 }
@@ -120,8 +119,6 @@ addHandler(menuItems[i], "mouseover", function(event){
 //         }
 //     }
 // });
-
-
 
 //鼠标滑入main，停止轮播
 addHandler(main,"mouseover",stopAutoPlay);

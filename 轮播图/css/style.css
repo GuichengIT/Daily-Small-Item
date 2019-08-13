@@ -40,7 +40,13 @@ a:link,a:visited{
     height: 460px;
     float: left;
     background-repeat: no-repeat;
+    display: none;
 }
+
+.slide_active{
+    display: block;
+}
+
 .slide1{
     background-image: url("../img/bg1.jpg");
 }
@@ -59,6 +65,12 @@ a:link,a:visited{
     margin-top: -40px;
     background:url("../img/arrow.png") center center no-repeat;
     transform: rotate(180deg);
+}
+
+.button:hover{
+    background-color: #333;
+    opacity: 0.8;/*定义透明度*/
+    filter:alpha(opacity=80);/*IE下透明度的设置*/
 }
 .next{
     left: auto;
@@ -160,6 +172,7 @@ a:link,a:visited{
     width: 652px;
     margin-left: 40px;
     overflow: hidden;
+    display: none;
 }
 
 .title{

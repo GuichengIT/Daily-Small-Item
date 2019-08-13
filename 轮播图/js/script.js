@@ -102,7 +102,7 @@ addHandler(dot, "click", function (){
     }
 });
 
-
+//方法一：
 //鼠标滑过主菜单显示子菜单(mouseover和mouseout事件不适合利用事件委托)
 for(let i=0;i<menuItemLen;i++){ //这个地方只能有let不能用var，如果用var那么subInnerBoxs[i].style.display = "block";
     //中的i就是全局i了，在调用这个事件处理程序时全局i是什么这里的i就是什么，很明显这是不符合要求的。但是使用let后每一次循环实际上都是
@@ -112,7 +112,7 @@ for(let i=0;i<menuItemLen;i++){ //这个地方只能有let不能用var，如果�
         subMenu.className = "sub-menu";
         // 隐藏所有的子菜单
         for(let j=0;j<menuItemLen;j++){
-            subInnerBoxs[i].style.display = "none";
+            subInnerBoxs[j].style.display = "none";
         }
         // 显示当前触发的子菜单
         subInnerBoxs[i].style.display = "block";
@@ -129,10 +129,11 @@ event.initMouseEvent("mouseover",true,true,document.defaultView,
     0,0,0,0,0,false,false,
     false,false, 0, null);
 // 触发事件
-menuItems[0].dispatchEvent(event);
+// menuItems[0].dispatchEvent(event);
+// menuItems[1].dispatchEvent(event);
 
 
-
+//方法二：
 //鼠标滑过主菜单显示子菜单(mouseover和mouseout事件不适合利用事件委托)
 // for(var i=0, idx;i<menuItemLen;i++){
 //     menuItems[i].setAttribute("data-index",i);
@@ -145,6 +146,7 @@ menuItems[0].dispatchEvent(event);
 //         for(let j=0;j<menuItemLen;j++){
 //             subInnerBoxs[j].style.display = "none";
 //         }
+//    //    显示触发的主菜单项目对应的子菜单
 //         subInnerBoxs[idx].style.display = "block";
 //     });
 // }

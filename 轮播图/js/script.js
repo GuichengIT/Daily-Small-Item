@@ -102,8 +102,10 @@ addHandler(dot, "click", function (){
 });
 
 //鼠标滑过主菜单显示子菜单(mouseover和mouseout事件不适合利用事件委托)
-for(let i=0;i<4;i++){
-addHandler(menuItems[i], "mouseover", function(event){
+for(let i=0;i<4;i++){ //这个地方只能有let不能用var，如果用var那么subInnerBoxs[i].style.display = "block";
+    //中的i就是全局i了，在调用这个事件处理程序时全局i是什么这里的i就是什么，很明显这是不符合要求的。但是使用let后每一次循环实际上都是
+    //新的变量i，在调用这个事件处理程序时，i就是当时循环时i的值而不是全局i，符合要求。
+    addHandler(menuItems[i], "mouseover", function(event){
 
     subInnerBoxs[i].style.display = "block";
     subMenu.className = "sub-menu";

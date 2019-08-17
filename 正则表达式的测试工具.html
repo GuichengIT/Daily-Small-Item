@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式的测试工具</title>
+<!--css代码-->
+    <style type="text/css">
+        #regexp{
+            width: 650px;
+            margin: 100px auto;
+            font-size: 14px;
+        }
+        #regexp .title{
+            color: #777;
+            font-size: 24px;
+            text-align: center;
+        }
+        #regexp .textbox{
+            width: 638px;
+            height: 150px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            resize: none;
+        }
+        #regexp .textfield{
+            width: 215px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<!--html代码-->
+    <div id="regexp">
+        <h1 class="title">
+            正则表达式测试工具
+        </h1>
+        <textarea id="userText" class="textbox" placeholder="在此输入待匹配的文本"></textarea>
+        <p>
+            正则表达式：<input type="text" id="userRegExp" class="textfield"
+            placeholder="在此输入正则表达式" />
+            <input type="checkbox" name="userModifier" value="i">忽略大小写
+            <input type="checkbox" name="userModifier" value="g">全局匹配
+            <input type="checkbox" name="userModifier" value="m">多行匹配
+            <input type="button" id="matchingBtn" value="测试匹配" />
+        </p>
+        匹配结果：
+        <textarea id="matchingResult" class="textbox" disabled></textarea>
+    </div>
+
+<!--js代码-->
+<script type="text/javascript">
+    var userText = document.getElementById("userText"),
+        userRegExp = document.getElementById("userRegExp"),
+        userModifier = document.getElementsByName("userModifier"),
+        matchingBtn = document.getElementById("matchingBtn"),
+        matchingResult = document.getElementById("matchingResult");
+    var pattern,
+        modifier = '';
+        for(var i=0;i<userModifier.length;i++){
+            userModifier[i].onclick = function(){
+                modifier = "";
+                for(var j=0;j<userModifier.length;j++){
+                    if(userModifier[j].checked){
+                        modifier += userModifier[j].value;
+                    }
+                }
+            }
+        }
+        matchingBtn.onclick = function () {
+            if(!userText.value){
+                alert("请输入待匹配的文本!");
+                userText.focus();
+            }
+            if(!userRegExp.value){
+                alert("请输入正则表达式！");
+                userRegExp.focus();
+            }
+            pattern = new RegExp(userRegExp.value,modifier);
+            matchingResult.value = pattern.exec(userText.value)|| "没有匹配";
+        };
+
+
+</script>
+</body>
+</html>

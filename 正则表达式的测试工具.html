@@ -105,10 +105,15 @@
         pattern = new RegExp(userRegExp.value,modifier);
         console.log(pattern);
         matchingResult.innerHTML = userText.value.replace(pattern, function($0){
-            return "<span style='background-color: red;: red'>"+$0+"</span>"
-        } || "没有匹配");
-    };
+            return "<span style='background-color: red;: red'>"+$0+"</span>";
+            // if(pattern.test(userText.value)){
+            //     return "<span style='background-color: red;: red'>"+$0+"</span>";
+            // }else {
+            //     return "没有匹配";
+            // }
 
+        });
+    };
 
     replaceBtn.onclick = function () {
         if(!userText.value){

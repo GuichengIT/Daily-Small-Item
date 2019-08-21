@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef792bf3-3aa8-41df-b223-ca776ff7c97e" name="Default Changelist" comment="">
+    <list default="true" id="ef792bf3-3aa8-41df-b223-ca776ff7c97e" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EightTrigrams.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PureCSSCloud.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PureCSSPencil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/正则表达式的测试工具.html" beforeDir="false" afterPath="$PROJECT_DIR$/RegulationExpressionTool/正则表达式的测试工具.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/轮播图/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/轮播图/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/轮播图/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/轮播图/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/轮播图/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/轮播图/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EightTrigrams.html">
+        <entry file="file://$PROJECT_DIR$/jd/jd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="-8902">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -27,31 +36,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PureCSSCloud/PureCSSCloud.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2860">
-              <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+            <state relative-caret-position="448">
+              <caret line="98" column="15" lean-forward="true" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PureCSSPencil/PureCSSPencil.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PureCSSPencil.html">
+        <entry file="file://$PROJECT_DIR$/Eight Trigrams/Eight Trigrams.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PureCSSCloud.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PureCSSHamburger/PureCSSHamburger.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="98">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -81,14 +93,18 @@
         <option value="$PROJECT_DIR$/CSSGrid/index.html" />
         <option value="$PROJECT_DIR$/PureCSSCloud/index.html" />
         <option value="$PROJECT_DIR$/PureCSSPencil/index.html" />
+        <option value="$PROJECT_DIR$/PureCSSHamburger/PureCSSHamburger.html" />
+        <option value="$PROJECT_DIR$/EightTrigrams.html" />
+        <option value="$PROJECT_DIR$/正则表达式的测试工具.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="501" />
-    <option name="y" value="11" />
-    <option name="width" value="670" />
-    <option name="height" value="728" />
+    <option name="x" value="596" />
+    <option name="y" value="1" />
+    <option name="width" value="783" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -103,6 +119,16 @@
               <item name="Daily-Small-Item" type="b2602c69:ProjectViewProjectNode" />
               <item name="Daily-Small-Item" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Daily-Small-Item" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Daily-Small-Item" type="462c0819:PsiDirectoryNode" />
+              <item name="jd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Daily-Small-Item" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Daily-Small-Item" type="462c0819:PsiDirectoryNode" />
+              <item name="PureCSSPencil" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -116,8 +142,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FrontEndProject\Daily-Small-Item\RegulationExpressionTool" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\FrontEndProject\Daily-Small-Item" />
       <recent name="E:\FrontEndProject\Daily-Small-Item\PureCSSPencil" />
@@ -135,6 +165,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="正则表达式的测试工具.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:1846/Daily-Small-Item/RegulationExpressionTool/正则表达式的测试工具.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" uri="http://localhost:2995/Daily-Small-Item/正则表达式的测试工具.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.正则表达式的测试工具.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,7 +194,22 @@
       <workItem from="1560821353497" duration="2290000" />
       <workItem from="1560901364113" duration="1238000" />
       <workItem from="1561023174750" duration="5659000" />
-      <workItem from="1561088752732" duration="525000" />
+      <workItem from="1561088752732" duration="1824000" />
+      <workItem from="1561456513702" duration="870000" />
+      <workItem from="1561555012010" duration="278000" />
+      <workItem from="1561621764809" duration="610000" />
+      <workItem from="1561863413125" duration="642000" />
+      <workItem from="1561945615823" duration="599000" />
+      <workItem from="1562068955703" duration="632000" />
+      <workItem from="1562212728647" duration="592000" />
+      <workItem from="1562286996052" duration="591000" />
+      <workItem from="1562385404449" duration="598000" />
+      <workItem from="1562487409262" duration="595000" />
+      <workItem from="1562936874692" duration="627000" />
+      <workItem from="1563064426196" duration="21000" />
+      <workItem from="1566030383257" duration="533000" />
+      <workItem from="1566097273994" duration="2305000" />
+      <workItem from="1566351817756" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="update jd">
       <created>1560570962083</created>
@@ -216,30 +274,76 @@
       <option name="project" value="LOCAL" />
       <updated>1561089122412</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1561089376294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561089376294</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1561457073887</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561457073888</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1566030491542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566030491542</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1566097334439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566097334439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1566098346220</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566098346220</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18737000" />
+    <option name="totallyTimeSpent" value="30844000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18303572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21651785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3277311" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.25040916" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,51 +362,80 @@
     <entry file="file://$PROJECT_DIR$/ActiveWatermelon/index.js" />
     <entry file="file://$PROJECT_DIR$/ActiveWatermelon/index.html" />
     <entry file="file://$PROJECT_DIR$/CSSGrid/index.html.js" />
-    <entry file="file://$PROJECT_DIR$/EightTrigrams.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/src/sass/index.sass" />
+    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/src/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/index.html" />
+    <entry file="file://$PROJECT_DIR$/PureCSSPencil.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PureCSSCloud/PureCSSCloud.html">
+    <entry file="file://$PROJECT_DIR$/RegulationExpressionTool/正则表达式的测试工具.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+        <state relative-caret-position="226">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PureCSSPencil/PureCSSPencil.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
+        <state relative-caret-position="514">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PureCSSPencil.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/src/sass/index.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/src/js/index.js">
+    <entry file="file://$PROJECT_DIR$/EightTrigrams.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HuaWeiMusic/index.html">
+    <entry file="file://$PROJECT_DIR$/jd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="-3036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd/jd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8902">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PureCSSCloud.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="-242">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PureCSSCloud/PureCSSCloud.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="98" column="15" lean-forward="true" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eight Trigrams/Eight Trigrams.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PureCSSHamburger/PureCSSHamburger.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

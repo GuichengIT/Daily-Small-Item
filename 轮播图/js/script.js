@@ -42,7 +42,6 @@ function startAutoPlay() {
             index = 0;
         }
         switch_pic();
-        console.log(index);
     },3000)
 }
 
@@ -61,7 +60,7 @@ function stopAutoPlay(){
  */
 function addHandler(element,type,handler){
     if(element.addEventListener){
-        return element.addEventListener(type, handler);
+        return element.addEventListener(type, handler,false);
     }else if(element.attachEvent){//IE支持DOM2级元素时
         element.attachEvent("on"+type, handler);
     }else{//ie8及以下版本时，利用DOM0级
@@ -110,12 +109,17 @@ for(let i=0;i<menuItemLen;i++){ //这个地方只能有let不能用var，如果�
     addHandler(menuItems[i], "mouseover", function(event){
         // 显示子菜单所在的背景
         subMenu.className = "sub-menu";
-        // 隐藏所有的子菜单
+
         for(let j=0;j<menuItemLen;j++){
+            // 隐藏所有的子菜单
             subInnerBoxs[j].style.display = "none";
+            // 还原主菜单之前的背景色
+            menuItems[j].style.background = "none";
         }
         // 显示当前触发的子菜单
         subInnerBoxs[i].style.display = "block";
+        // 设置当前触发的主菜单高亮
+        menuItems[i].style.background = "rgba(0,0,0,0.1)";
 
 
 });
@@ -123,14 +127,23 @@ for(let i=0;i<menuItemLen;i++){ //这个地方只能有let不能用var，如果�
 
 // 模拟鼠标滑过主菜单事件
 // 创建事件对象
-var event= document.createEvent("MouseEvents");
-// 初始化事件对象
-event.initMouseEvent("mouseover",true,true,document.defaultView,
-    0,0,0,0,0,false,false,
-    false,false, 0, null);
-// 触发事件
+// var event= document.createEvent("MouseEvents");
+// // 初始化事件对象
+// event.initMouseEvent("mouseover",true,true,document.defaultView,
+//     0,0,0,0,0,false,false,
+//     false,false, 0, null);
+// // 触发事件
 // menuItems[0].dispatchEvent(event);
 // menuItems[1].dispatchEvent(event);
+
+// 创建事件对象
+// var event= document.createEvent("MouseEvents");
+// // 初始化事件对象
+// event.initMouseEvent("click",true,true,document.defaultView,
+//     0,0,0,0,0,false,false,
+//     false,false, 0, null);
+// // 触发事件
+// dot[1].dispatchEvent(event);
 
 
 //方法二：
@@ -153,14 +166,20 @@ event.initMouseEvent("mouseover",true,true,document.defaultView,
 
 
 // 鼠标滑出主菜单隐藏子菜单
-// addHandler(menuContent,"mouseout",function(event){
-//     for(let i=0,menuItemLen = menuItems.length;i<menuItemLen;i++){
-//         if(event.target === menuItems[i]){
-//             subMenu.className = "sub-menu hide";
-//             subInnerBoxs[i].style.display = "block";
-//         }
-//     }
-// });
+addHandler(menuContent,"mouseout",function(event){
+    subMenu.className = "sub-menu hide";
+    }
+);
+//鼠标移入子菜单显示子菜单
+addHandler(subMenu,"mouseover",function(event){
+        subMenu.className = "sub-menu";
+    }
+);
+//鼠标移出子菜单显示子菜单
+addHandler(subMenu,"mouseout",function(event){
+        subMenu.className = "sub-menu hide";
+    }
+);
 
 //鼠标滑入main，停止轮播
 addHandler(main,"mouseover",stopAutoPlay);

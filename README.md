@@ -10,6 +10,8 @@
 - PureCSSCloud:[漂浮的云](https://happycoding1024.github.io/Daily-Small-Item/PureCSSCloud/PureCSSCloud.html)
 - RegulationExpressionTool：[正则表达式工具](https://happycoding1024.github.io/Daily-Small-Item/RegulationExpressionTool/正则表达式的测试工具.html)
 - JDSimulation：[仿京东主页](https://happycoding1024.github.io/Daily-Small-Item/jd/jd.html)
+- SlideShow：[轮播图](https://happycoding1024.github.io/Daily-Small-Item/轮播图/index.html)
+- SlideShow：[云道页面](https://happycoding1024.github.io/Daily-Small-Item/云道页面/index.html)
 
 ## 🔔 更新日志(Update log)
 
